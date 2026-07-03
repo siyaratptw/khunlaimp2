@@ -100,9 +100,7 @@ button:disabled { opacity: .6; cursor: not-allowed; }
   min-height: 450px; padding: 22px 22px 28px;
   border-bottom-left-radius: 36px; border-bottom-right-radius: 36px;
   box-shadow: var(--shadow);
-  background:
-    linear-gradient(180deg, rgba(14,165,233,.34), rgba(255,247,237,.80) 62%, rgba(254,243,199,.9)),
-    linear-gradient(90deg, rgba(22,163,74,.28), rgba(250,204,21,.16), rgba(249,115,22,.16));
+  background: transparent;
 }
 .hero:before {
   content: "";
