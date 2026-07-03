@@ -38,9 +38,6 @@ button:disabled { opacity: .6; cursor: not-allowed; }
   flex-shrink: 0;
   padding: 22px;
   color: white;
-  background:
-    linear-gradient(180deg, rgba(255, 171, 64, .98), rgba(234, 88, 12, .96) 42%, rgba(120, 53, 15, .98)),
-    radial-gradient(circle at 50% 95%, rgba(250, 204, 21, .28), transparent 180px);
   box-shadow: inset -10px 0 24px rgba(67, 20, 7, .18);
 
   background-image: url("/images/ui/sidebar-wood.png");
