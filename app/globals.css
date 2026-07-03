@@ -211,3 +211,8 @@ td:last-child { border-radius:0 17px 17px 0; }
 .error { background:#fee2e2; color:#b91c1c; border-radius:16px; padding:10px; font-weight:900; }
 .placeholder { text-align:center; padding:50px 20px; }
 .placeholder .big { font-size:76px; }
+
+.hero::after {
+  content: none !important;
+  display: none !important;
+}
