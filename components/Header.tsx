@@ -5,7 +5,15 @@ import { Mascot } from "./Mascot";
 
 export function Header({ lang, setLang, logout }: { lang: Lang; setLang: (l: Lang) => void; logout: () => void }) {
   return (
-    <header className="hero">
+    <header
+  className="hero"
+  style={{
+    backgroundImage: "url('/images/farm-bg.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
       <div className="sky"><span className="sun">☀️</span><span className="cloud-a">☁️</span><span className="cloud-b">☁️</span><span className="birds">⌁⌁</span></div>
       <div className="hero-inner">
         <div className="hero-title">
