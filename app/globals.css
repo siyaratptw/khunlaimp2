@@ -109,7 +109,7 @@ button:disabled { opacity: .6; cursor: not-allowed; }
     radial-gradient(ellipse at 55% 76%, rgba(22, 163, 74, .28) 0 22%, transparent 23%),
     radial-gradient(ellipse at 85% 78%, rgba(101, 163, 13, .22) 0 20%, transparent 21%),
     repeating-linear-gradient(90deg, transparent 0 25px, rgba(120, 53, 15, .11) 25px 28px);
-  opacity: .15;
+  opacity: .0;
 }
 .hero:after {
   content: "🌾 ไร่อ้อย   🌱 ไร่มันสำปะหลัง   🌽 ไร่ข้าวโพด";
