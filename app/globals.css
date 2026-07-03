@@ -34,18 +34,27 @@ button:disabled { opacity: .6; cursor: not-allowed; }
 .app { min-height: 100vh; display: flex; }
 .sidebar {
   display: none;
-  width: 270px;
+  width: 300px;
   flex-shrink: 0;
-  padding: 18px;
+  padding: 22px;
   color: white;
   background:
-    linear-gradient(180deg, rgba(249, 115, 22, .96), rgba(154, 52, 18, .98)),
-    repeating-linear-gradient(45deg, rgba(255,255,255,.07) 0 8px, transparent 8px 16px);
+    linear-gradient(180deg, rgba(255, 171, 64, .98), rgba(234, 88, 12, .96) 42%, rgba(120, 53, 15, .98)),
+    radial-gradient(circle at 50% 95%, rgba(250, 204, 21, .28), transparent 180px);
+  box-shadow: inset -10px 0 24px rgba(67, 20, 7, .18);
 }
 @media (min-width: 1024px) { .sidebar { display: flex; flex-direction: column; } }
 
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand-title { font-size: 35px; font-weight: 900; line-height: .9; text-shadow: 0 3px 0 rgba(67, 20, 7, .25); }
+.brand-title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: .85;
+  color: #ffffff;
+  text-shadow:
+    0 3px 0 #c2410c,
+    0 6px 12px rgba(67, 20, 7, .35);
+}
 .brand-sub { font-weight: 800; font-size: 12px; letter-spacing: .04em; }
 
 .mascot {
